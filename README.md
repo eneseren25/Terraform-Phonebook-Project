@@ -123,6 +123,7 @@ thousand                         Warning -> 'Invalid input: Phone number should 
         |----add-update.html # Given to the students (HTML template)
         |----delete.html     # Given to the students (HTML template)
 ```
+![Project_207](terraform_graph.PNG)
 
 ## Expected Outcome
 
