@@ -8,7 +8,7 @@ resource "aws_launch_template" "aws_lt" {
       volume_size = 20
     }
   }
-
+  security_group_names = [aws_security_group.ec2-sec-group.name]
   image_id      = data.aws_ami.launch_data.id
   instance_type = var.aws_launch_instance_type
   key_name      = var.aws_launch_key_pair
